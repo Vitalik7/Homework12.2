@@ -16,7 +16,7 @@ console.log(isPrime(10000000000000))             // false
 
 
 function factorial(num) {
-  if (num == 0) {
+  if (num === 0) {
     return 1
   } else {
     return num * factorial(num - 1)
